@@ -1,0 +1,168 @@
+body {
+    font-family: "Open Sans", "Helvetica", sans-serif;
+    font-size: 14px;
+    background: #F8F8F8;
+    margin: 0;
+}
+
+a {
+    text-decoration:none;
+    color: #C86636;
+}
+
+p{
+    margin: 0}
+
+
+/* Header */
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #0E1F3F;
+
+}
+
+
+.title{
+    font-size: 36px;
+    font-weight: 800;
+    display: inline;
+    color: #FFFFFF;
+    line-height: 70px
+}
+
+
+
+.login {
+    display: inline;
+    float: right;
+    background-color: #C86636;
+
+}
+
+.headerlink{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 70px;
+    padding: 8px;
+
+}
+
+
+.header-wrap{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/* flash */
+
+
+.flash {
+    width: 50%;
+    height: auto;
+    background-color: #FFFFE0;
+    margin: 0px auto;
+
+}
+
+/* content */
+
+.content {
+    width: 80%;
+    height: auto;
+    background-color: #ffffff;
+    margin: 20px auto;
+    border:1px solid #A8A8A8;
+    padding: 10px;
+}
+
+
+.shop_list{
+    width: 15% !important;
+    margin-left: 10px;
+    float: left;
+
+}
+
+
+
+.item_list {
+    width: 50%; !important;
+    float: left;
+    margin: 10px 0 10px 0;
+    border-left: 1px solid #A8A8A8;
+    padding-left: 15px;
+}
+
+.clear{ clear:both}
+
+
+
+h1{
+    font-size: 28px;
+    font-weight: 800;
+    color: #0E1F3F;
+}
+
+li {
+    list-style-type:none;
+    padding: 10px 0 5px 0;
+}
+
+ul {
+    padding: 0;
+}
+
+
+/* add_html */
+
+input,select {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 25px;
+    width: 300px;
+    font-size: 15px;
+}
+
+
+
+#price,#discount_price{
+    width: 292px;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0E1F3F;
+    margin: 0;
+}
+
+.button{
+    height: 25px;
+    width: 60px;
+    background-color: #C86636;
+    color: #FFFFFF;
+    text-decoration:none;
+    border:none
+}
+
+
+/* item_info */
+
+
+.detail{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+/* shop-item */
+
+
+.crud {
+    color: #A8A8A8;
+}

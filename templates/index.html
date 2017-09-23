@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
+    <title>All Items</title>
+</head>
+<body>
+
+    <!--Header -->
+
+    <header>
+        <div class="header-wrap">
+            <a class="title" href="/">Catalog App</a>
+        </div>
+    </header>
+
+
+
+    <!--SHOP & ITEM LIST-->
+
+    <div class="content">
+
+        <div class="shop_list">
+            <h1>Shops</h1>
+
+        </div>
+
+        <div class="item_list">
+            <h1>Latest Items</h1>
+            <ul>
+            {% for i in items %}
+                <li>
+                    <p>{{i.id}}</p>
+                    <p>{{i.price}},{{ i.Item.price }}</p>
+                    <p>{{i.Item.title}},{{ i.Shop.name }}</p>
+                    <img src="{{ i.Item.pic }}">
+                    <form action="/" method = 'POST' enctype='multipart/form-data'>
+                         推：<input class="button" type='submit' name="id" value="{{ i.id }}"/>
+                     </form>
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+
+        <div class="clear">
+        </div>
+    </div>
+
+</body>
+</html>
